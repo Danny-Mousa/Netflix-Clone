@@ -1,0 +1,23 @@
+
+.login {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient( rgba($black,1), rgba($primary,0.7));
+
+  .login__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: brightness(40%) blur(5px);
+  }
+}
+
+@each $name, $color in ('facebook' :#3B5998, 'gmail': #EA4335) {
+
+  .#{$name} {
+    background-color: $color;
+  }
+
+}

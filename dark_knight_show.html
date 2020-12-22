@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Netflix</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/all.min.css">
+    <link rel="stylesheet" href="./dist/css/vendor.min.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/styles.min.css?ee8b8">
+  </head>
+  <body>
+    <section id="show">
+      <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-white" href="./index.html">Netflix<span class="text-primary font-weight-bold">ify</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+
+            <form class="form-inline col-md-7 my-2 my-lg-0 mx-auto">
+
+              <div class="input-group col-12">
+                <input class="form-control mr-sm-2 bg-transparent border-0" type="search" placeholder="Search for your favorite movie" aria-label="Search">
+
+                <div class="input-group-prepend ">
+                  <span class="input-group-text bg-transparent border-0" id="basic-addon1"><i class="fas fa-search text-primary fa-1x"></i></span>
+                </div>
+
+              </div>
+            </form>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mr-md-2">
+                <a class="btn btn-primary btn-block" href="login.html">Login </a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-light btn-block" href="register.html">Register</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="movie">
+        <div class="movie__bg movie__bg2"></div>
+        <div class="container">
+          <div class="row">
+            <div class="video video__bg3 col-md-7 d-flex justify-content-center align-items-center">
+              <span class="movie__play-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-play text-white fa-2x"></i>
+              </span>
+            </div>
+            <div class="col-md-4 ml-auto text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">dark knight</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div>
+                  <span class="fas fa-star text-primary mr-2"></span>
+                  <span class="fas fa-star text-primary mr-2"></span>
+                  <span class="fas fa-star text-primary mr-2"></span>
+                  <span class="fas fa-star text-primary mr-2"></span>
+                </div>
+                <span>4.2</span>
+              </div>
+              <p class="movie__description my-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              </p>
+              <div class="movie__cta my-5 d-flex justify-content-between">
+                <a href="" class="btn btn-primary text-capitalize">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <a href="" class="btn btn-outline-light text-capitalize">
+                  <span class="fas fa-heart"></span>
+                  add to favorite
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="listing listing2 pt-0 pb-5">
+      <div class="container">
+        <div class="row justify-content-between mt-5 mb-2 mx-0">
+          <h3 class="listing__title text-white fw-300">Drama</h3>
+          <a href="" class="align-self-center text-capitalize text-primary">see all</a>
+        </div>
+        <div class="row movies owl-carousel owl-theme mx-0">
+
+          <div class="movie p-0">
+            <img src="dist/images/dark-knight-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">dark knight</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 530</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+          <div class="movie p-0">
+            <img src="dist/images/bad-boys-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">bad boys</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 350</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+          <div class="movie p-0">
+            <img src="dist/images/irishman-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">irish man</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 1250</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie p-0">
+            <img src="dist/images/star-wars-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">star wars</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 300</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+          <div class="movie p-0">
+            <img src="dist/images/mulan-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">mulan</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 300</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+          <div class="movie p-0">
+            <img src="dist/images/call-wild-poster.jpg" class="img-fluid" alt="call wild poster" />
+            <div class="movie__details text-white">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300 text-capitalize">the call of the wild</h1>
+                <span class="movies__year align-self-center">2020</span>
+              </div>
+              <div class="movie__rating d-flex my-1">
+                <div class="mr-2">
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                  <span class="fas fa-star text-primary mr-1"></span>
+                </div>
+                <span>4.7</span>
+              </div>
+              <div class="movie__views">
+                <p>Views: 300</p>
+              </div>
+              <div class="movie__cta my-2 d-flex justify-content-between">
+                <a href="" class="btn btn-primary btn-block text-capitalize mr-3">
+                  <span class="fas fa-play"></span>
+                  watch now
+                </a>
+                <span class="far fa-heart align-self-center movie__fav-button"></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-3 bg-primary text-center">
+      <p class="mb-0 text-capitalize">&copy; all copyrights are reserved for netflixify 2020</p>
+      <div class="social-icons">
+        <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+        <a href="" class="text-white mr-2"><i class="fab fa-youtube fa-1x"></i></a>
+        <a href="" class="text-white mr-2"><i class="fab fa-github fa-1x"></i></a>
+      </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jquery should be before owl-carousel js file -->
+    <script src="./dist/js/jquery.slim.min.js" ></script>
+    <!-- Vendor JS --> <!-- owl-carousel js file -->
+    <script src="./dist/js/vendor.min.js"></script>
+   <script src="./dist/js/popper.min.js" ></script>
+   <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./dist/js/scripts.min.js?d41d8"></script>
+  </body>
+</html>

@@ -1,0 +1,296 @@
+.login {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(black, rgba(34, 167, 240, 0.7));
+}
+
+.login .login__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: brightness(40%) blur(5px);
+}
+
+.facebook {
+  background-color: #3B5998;
+}
+
+.gmail {
+  background-color: #EA4335;
+}
+
+.bg-black-transparent {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+nav {
+  transition: all .5s;
+}
+
+@media screen and (max-width: 768px) {
+  nav .navbar-collapse {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav .btn-outline-light {
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #banner .movie__bg + .container {
+    padding-top: 100px;
+  }
+}
+
+#banner .form-control[type='search']:-ms-input-placeholder {
+  color: lightblue;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+#banner .form-control[type='search']::placeholder {
+  color: lightblue;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+#banner #banner_carousel .carousel-control-prev,
+#banner #banner_carousel .carousel-control-next {
+  width: 7%;
+}
+
+#banner .movie {
+  min-height: 100vh;
+  background: #000;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #banner .movie {
+    padding-top: 100px;
+  }
+}
+
+#banner .movie .movie__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(40%) blur(3px);
+}
+
+#banner .movie .movie__name {
+  font-size: 2.5rem;
+}
+
+#banner .movie .movie__rating .fas {
+  font-size: 1rem;
+}
+
+#banner .movie .movie__description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+#banner .movie__bg1 {
+  background: rgba(0, 0, 0, 0.8) url("../images/call-wild.jpg") no-repeat center/cover;
+}
+
+#banner .movie__bg2 {
+  background: rgba(0, 0, 0, 0.8) url("../images/bad-boys.jpg") no-repeat center/cover;
+}
+
+#banner .movie__bg3 {
+  background: rgba(0, 0, 0, 0.8) url("../images/dark-knight.jpg") no-repeat center/cover;
+}
+
+#banner .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2322A7F0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#banner .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2322A7F0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.listing .movies {
+  position: relative;
+}
+
+.listing .movies .movie {
+  background: #000;
+  position: relative;
+}
+
+.listing .movies .movie img {
+  transition: all .3s ease;
+  height: 300px;
+}
+
+.listing .movies .movie:hover img {
+  opacity: 0.2;
+}
+
+.listing .movies .movie:hover .movie__details {
+  opacity: 1;
+}
+
+.listing .movies .movie .movie__details {
+  transition: all .3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  opacity: 0;
+}
+
+.listing .movies .movie .movie__details .movie__rating .fa-star {
+  font-size: 0.9rem;
+}
+
+.listing .movies .movie .movie__details .movie__fav-button {
+  font-size: 1.5rem;
+}
+
+.listing .movies .movie .movie__details .movie__name {
+  font-size: 1.5rem;
+}
+
+.listing .movies .movie .movie__details .fa-heart:hover {
+  font-weight: 900;
+}
+
+.listing .movies .owl-nav {
+  position: absolute;
+  top: 42%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listing .movies .owl-nav button {
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold;
+  background: #22a7f0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listing .movies .owl-nav button:focus {
+  outline: 0;
+}
+
+.listing .movies .owl-nav button:hover {
+  background: rgba(34, 167, 240, 0.5);
+}
+
+.listing .movies .owl-nav button.owl-prev span {
+  padding-bottom: 4px;
+  padding-right: 0px;
+}
+
+.listing .movies .owl-nav button.owl-next span {
+  padding-bottom: 4px;
+  padding-left: 3px;
+}
+
+#footer .social-icons {
+  font-size: 1.2rem;
+}
+
+#show .form-control[type='search']:-ms-input-placeholder {
+  color: lightblue;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+#show .form-control[type='search']::placeholder {
+  color: lightblue;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+#show .movie {
+  padding: 8% 0;
+  background: #000;
+  position: relative;
+}
+
+#show .movie .movie__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(black, rgba(34, 167, 240, 0.1), black);
+  filter: blur(5px);
+}
+
+#show .movie .movie__play-icon {
+  width: 80px;
+  height: 80px;
+  background: #22A7F0;
+  border-radius: 50%;
+  position: relative;
+}
+
+#show .movie .movie__play-icon i {
+  position: absolute;
+  left: 29px;
+  top: 25px;
+}
+
+#show .movie .video {
+  height: 70vh;
+}
+
+#show .movie .video__bg1 {
+  background: url("../images/call-wild.jpg") no-repeat center/cover;
+}
+
+#show .movie .video__bg2 {
+  background: url("../images/bad-boys.jpg") no-repeat center/cover;
+}
+
+#show .movie .video__bg3 {
+  background: url("../images/dark-knight.jpg") no-repeat center/cover;
+}
+
+#show .movie .movie__description {
+  line-height: 1.6rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=styles.css.map */

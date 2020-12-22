@@ -1,0 +1,19 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+
+@import 'pages/login';
+@import 'pages/index';
+@import 'pages/show';
+
+$font-weights:(300, 500, 700);
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: $black;
+}
+
+@each $i in $font-weights {
+  .fw-#{$i} {font-weight: $i;}
+}
